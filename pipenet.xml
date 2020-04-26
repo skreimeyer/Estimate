@@ -1,0 +1,179 @@
+<?xml version="1.0"?>
+<LandXML xmlns="http://www.landxml.org/schema/LandXML-1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.landxml.org/schema/LandXML-1.2 http://www.landxml.org/schema/LandXML-1.2/LandXML-1.2.xsd" date="2020-04-25" time="21:16:17" version="1.2" language="English" readOnly="false">
+	<Units>
+		<Imperial areaUnit="squareFoot" linearUnit="USSurveyFoot" volumeUnit="cubicYard" temperatureUnit="fahrenheit" pressureUnit="inchHG" diameterUnit="inch" angularUnit="decimal degrees" directionUnit="decimal degrees"></Imperial>
+	</Units>
+	<CoordinateSystem desc="NAD83 Arkansas State Planes, South Zone, US Foot" epsgCode="3434" ogcWktCode="PROJCS[&quot;AR83-SF&quot;,GEOGCS[&quot;LL83&quot;,DATUM[&quot;NAD83&quot;,SPHEROID[&quot;GRS1980&quot;,6378137.000,298.25722210]],PRIMEM[&quot;Greenwich&quot;,0],UNIT[&quot;Degree&quot;,0.017453292519943295]],PROJECTION[&quot;Lambert_Conformal_Conic_2SP&quot;],PARAMETER[&quot;false_easting&quot;,1312333.333],PARAMETER[&quot;false_northing&quot;,1312333.333],PARAMETER[&quot;central_meridian&quot;,-92.00000000000000],PARAMETER[&quot;latitude_of_origin&quot;,32.66666666666666],PARAMETER[&quot;standard_parallel_1&quot;,34.76666666666667],PARAMETER[&quot;standard_parallel_2&quot;,33.30000000000000],UNIT[&quot;Foot_US&quot;,0.30480060960122]]" horizontalDatum="NAD83" horizontalCoordinateSystemName="AR83-SF" fileLocation="AutoCAD Map Zone Name"></CoordinateSystem>
+	<Project name="G:\17806801_CMSPkLtImp\INFRASTRUCTURE\CIVIL\DWG\!STS PP.dwg"></Project>
+	<Application name="Autodesk Civil 3D" desc="Civil 3D" manufacturer="Autodesk, Inc." version="2020" manufacturerURL="www.autodesk.com/civil" timeStamp="2020-04-25T21:16:17"></Application>
+	<PipeNetworks>
+		<PipeNetwork name="EAST" pipeNetType="storm" alignmentRef="" desc="">
+			<Structs>
+				<Struct name="1-6 (EAST)" desc="4&apos;x4&apos;" elevRim="479.847565178331" elevSump="476.319709041018">
+					<Center>1981953.508089069976 1014630.829974850058</Center>
+					<RectStruct length="4." width="4." material="Reinforced Concrete" thickness="0.5"></RectStruct>
+					<Invert elev="476.319709041018" flowDir="out" refPipe="1-6 TO 1-5 (EAST)"></Invert>
+					<Feature code="StructureFeature" source="Autodesk Civil 3D">
+						<Property label="controlSumpBy" value="depth"></Property>
+					</Feature>
+				</Struct>
+				<Struct name="1-5 (EAST)" desc="4&apos;x4&apos;" elevRim="478.87" elevSump="474.72118216462">
+					<Center>1981934.645680079935 1014745.342675289954</Center>
+					<RectStruct length="4." width="4." material="Reinforced Concrete" thickness="0.5"></RectStruct>
+					<Invert elev="474.72118216462" flowDir="out" refPipe="1-5 TO 1-4 (EAST)"></Invert>
+					<Invert elev="475.05" flowDir="in" refPipe="1-6 TO 1-5 (EAST)"></Invert>
+					<Feature code="StructureFeature" source="Autodesk Civil 3D">
+						<Property label="controlSumpBy" value="depth"></Property>
+					</Feature>
+				</Struct>
+				<Struct name="1-4 (EAST)" desc="4&apos;x4&apos;" elevRim="477.26" elevSump="472.895529255918">
+					<Center>1981908.984897470102 1014804.362287180033</Center>
+					<RectStruct length="4." width="4." material="Reinforced Concrete" thickness="0.5"></RectStruct>
+					<Invert elev="472.895529255918" flowDir="out" refPipe="1-4 TO 1-3 (EAST)"></Invert>
+					<Invert elev="473.69" flowDir="in" refPipe="1-5 TO 1-4 (EAST)"></Invert>
+					<Invert elev="473.55" flowDir="in" refPipe="SE DITCH TO 1-4 (EAST)"></Invert>
+					<Invert elev="473.55" flowDir="in" refPipe="DET OUT TO 1-4 (EAST)"></Invert>
+					<Feature code="StructureFeature" source="Autodesk Civil 3D">
+						<Property label="controlSumpBy" value="depth"></Property>
+					</Feature>
+				</Struct>
+				<Struct name="1-3 (EAST)" desc="4&apos; DIA JUNCTION MH" elevRim="477.208333333333" elevSump="472.3">
+					<Center>1981859.786351530114 1014799.061986580025</Center>
+					<CircStruct diameter="48." material="Reinforced Concrete" thickness="0.666666666667"></CircStruct>
+					<Invert elev="472.3" flowDir="out" refPipe="1-3 TO 1-2 (EAST)"></Invert>
+					<Invert elev="472.400696950075" flowDir="in" refPipe="1-4 TO 1-3 (EAST)"></Invert>
+					<Feature code="StructureFeature" source="Autodesk Civil 3D">
+						<Property label="controlSumpBy" value="depth"></Property>
+					</Feature>
+				</Struct>
+				<Struct name="Outfall - 1 (EAST)" desc="24&quot; CPP FES" elevRim="472.957154790461">
+					<Center>1981677.002312236233 1014738.000734329107</Center>
+					<OutletStruct></OutletStruct>
+					<Invert elev="470.798821457128" flowDir="in" refPipe="1-3 TO 1-2 (EAST)"></Invert>
+					<Feature code="StructureFeature" source="Autodesk Civil 3D">
+						<Property label="controlSumpBy" value="depth"></Property>
+					</Feature>
+				</Struct>
+				<Struct name="Null Structure (EAST)" desc="Null Structure" elevRim="0.">
+					<Center>1981905.444029930048 1014815.683213019976</Center>
+					<Connection></Connection>
+					<Invert elev="474." flowDir="out" refPipe="SE DITCH TO 1-4 (EAST)"></Invert>
+					<Invert elev="474." flowDir="out" refPipe="DET OUT TO 1-4 (EAST)"></Invert>
+					<Feature code="StructureFeature" source="Autodesk Civil 3D">
+						<Property label="controlSumpBy" value="depth"></Property>
+					</Feature>
+				</Struct>
+			</Structs>
+			<Pipes>
+				<Pipe name="1-3 TO 1-2 (EAST)" refEnd="Outfall - 1 (EAST)" refStart="1-3 (EAST)" desc="24&quot; HDPE" length="192.71931684202" slope="0.007789691828">
+					<CircPipe diameter="24." material="HDPE" thickness="0.075"></CircPipe>
+					<PipeFlow flowIn="0." areaCatchment="0." hglDown="0." hglUp="0." runoffCoeff="0." timeInlet="0."></PipeFlow>
+				</Pipe>
+				<Pipe name="1-5 TO 1-4 (EAST)" refEnd="1-4 (EAST)" refStart="1-5 (EAST)" desc="15&quot; RCP" length="64.365003600258" slope="0.016022907916">
+					<CircPipe diameter="15." material="RCP" thickness="0.1875"></CircPipe>
+					<PipeFlow flowIn="0." areaCatchment="0.35" hglDown="0." hglUp="0." runoffCoeff="0.95" timeInlet="5."></PipeFlow>
+				</Pipe>
+				<Pipe name="1-6 TO 1-5 (EAST)" refEnd="1-5 (EAST)" refStart="1-6 (EAST)" desc="15&quot; RCP" length="116.062746805312" slope="0.010940504704">
+					<CircPipe diameter="15." material="RCP" thickness="0.1875"></CircPipe>
+					<PipeFlow flowIn="0." areaCatchment="0.26" hglDown="0." hglUp="0." runoffCoeff="0.95" timeInlet="5."></PipeFlow>
+				</Pipe>
+				<Pipe name="SE DITCH TO 1-4 (EAST)" refEnd="1-4 (EAST)" refStart="Null Structure (EAST)" desc="18&quot; RCP" length="11.870282423334" slope="0.037937067734">
+					<CircPipe diameter="18." material="RCP" thickness="0.208333333333"></CircPipe>
+					<PipeFlow flowIn="0." areaCatchment="1." hglDown="0." hglUp="0." runoffCoeff="0.6" timeInlet="5."></PipeFlow>
+				</Pipe>
+				<Pipe name="DET OUT TO 1-4 (EAST)" refEnd="1-4 (EAST)" refStart="Null Structure (EAST)" desc="18&quot; RCP" length="11.870282423334" slope="0.037937067734">
+					<CircPipe diameter="18." material="RCP" thickness="0.208333333333"></CircPipe>
+					<PipeFlow flowIn="4.32" areaCatchment="0." hglDown="0." hglUp="0." runoffCoeff="0." timeInlet="0."></PipeFlow>
+				</Pipe>
+			</Pipes>
+		</PipeNetwork>
+		<PipeNetwork name="WEST" pipeNetType="storm" alignmentRef="" desc="">
+			<Structs>
+				<Struct name="EndNullStruct0" desc="Dummy Null Structure for LandXML purposes" elevRim="0.">
+					<Center>1981941.140203079907 1014539.074234219966</Center>
+					<Connection></Connection>
+					<Invert elev="473.46" flowDir="in" refPipe="3-1 TO OUTFALL (WEST)"></Invert>
+				</Struct>
+				<Struct name="3-4 (WEST)" desc="4X4&apos; MANHOLE WITH WEIR WALL AND 6IN ORIFICE" elevRim="489.5" elevSump="483.9">
+					<Center>1982344.114521259209 1014810.566369703156</Center>
+					<RectStruct length="4." width="4." material="Reinforced Concrete" thickness="0.5"></RectStruct>
+					<Invert elev="483.9" flowDir="out" refPipe="3-3 TO 3-2 (WEST)"></Invert>
+					<Invert elev="484." flowDir="out" refPipe="3-4 TO 3-3 (WEST)"></Invert>
+					<Feature code="StructureFeature" source="Autodesk Civil 3D">
+						<Property label="controlSumpBy" value="elevation"></Property>
+					</Feature>
+				</Struct>
+				<Struct name="2-2 (WEST)" desc="4&apos;x4&apos;" elevRim="486.248312266565" elevSump="482.272762797368">
+					<Center>1982174.940596783301 1014335.168729882105</Center>
+					<RectStruct length="4." width="4." material="Reinforced Concrete" thickness="0.5"></RectStruct>
+					<Invert elev="482.272762797368" flowDir="out" refPipe="2-1 TO 2-2 (WEST)"></Invert>
+					<Feature code="StructureFeature" source="Autodesk Civil 3D">
+						<Property label="controlSumpBy" value="depth"></Property>
+					</Feature>
+				</Struct>
+				<Struct name="3-4 INLET (WEST)" desc="18&quot; CPP FES WITH TRASH GUARD" elevRim="485.68351395828">
+					<Center>1982350.21127955406 1014814.996123437653</Center>
+					<OutletStruct></OutletStruct>
+					<Invert elev="484.037680624946" flowDir="in" refPipe="3-4 TO 3-3 (WEST)"></Invert>
+					<Feature code="StructureFeature" source="Autodesk Civil 3D">
+						<Property label="controlSumpBy" value="depth"></Property>
+					</Feature>
+				</Struct>
+				<Struct name="3-2 (WEST)" desc="4&apos;x4&apos;" elevRim="484.909136654139" elevSump="481.170345445389">
+					<Center>1982240.661999999778 1014557.964477944304</Center>
+					<RectStruct length="4." width="4." material="Reinforced Concrete" thickness="0.5"></RectStruct>
+					<Invert elev="481.200803320806" flowDir="out" refPipe="3-2 TO 3-1 (WEST)"></Invert>
+					<Invert elev="481.170345445389" flowDir="in" refPipe="3-3 TO 3-2 (WEST)"></Invert>
+					<Feature code="StructureFeature" source="Autodesk Civil 3D">
+						<Property label="controlSumpBy" value="depth"></Property>
+					</Feature>
+				</Struct>
+				<Struct name="3-1 (WEST)" desc="4&apos;x4&apos;" elevRim="484.57" elevSump="476.95">
+					<Center>1982175.71787538589 1014554.054738778737</Center>
+					<RectStruct length="4." width="4." material="Reinforced Concrete" thickness="0.5"></RectStruct>
+					<Invert elev="476.95" flowDir="out" refPipe="3-1 TO OUTFALL (WEST)"></Invert>
+					<Invert elev="480.550186276593" flowDir="in" refPipe="3-2 TO 3-1 (WEST)"></Invert>
+					<Invert elev="480.174696725955" flowDir="in" refPipe="3-1 TO 2-1 (WEST)"></Invert>
+					<Feature code="StructureFeature" source="Autodesk Civil 3D">
+						<Property label="controlSumpBy" value="depth"></Property>
+					</Feature>
+				</Struct>
+				<Struct name="2-1 (WEST)" desc="4&apos;x4&apos;" elevRim="484.537609009117" elevSump="480.722554414929">
+					<Center>1982187.552954362007 1014489.675651170895</Center>
+					<RectStruct length="4." width="4." material="Reinforced Concrete" thickness="0.5"></RectStruct>
+					<Invert elev="480.829275675784" flowDir="out" refPipe="3-1 TO 2-1 (WEST)"></Invert>
+					<Invert elev="480.722554414929" flowDir="in" refPipe="2-1 TO 2-2 (WEST)"></Invert>
+					<Feature code="StructureFeature" source="Autodesk Civil 3D">
+						<Property label="controlSumpBy" value="depth"></Property>
+					</Feature>
+				</Struct>
+			</Structs>
+			<Pipes>
+				<Pipe name="3-1 TO OUTFALL (WEST)" refEnd="EndNullStruct0" refStart="3-1 (WEST)" desc="18&quot; CMP" length="235.081432617143" slope="0.014847555696">
+					<CircPipe diameter="18." material="CMP" thickness="0.004333333333"></CircPipe>
+					<PipeFlow flowIn="0." areaCatchment="0." hglDown="0." hglUp="0." runoffCoeff="0." timeInlet="0."></PipeFlow>
+				</Pipe>
+				<Pipe name="3-2 TO 3-1 (WEST)" refEnd="3-1 (WEST)" refStart="3-2 (WEST)" desc="18&quot; RCP" length="65.064957425217" slope="0.01">
+					<CircPipe diameter="18." material="RCP" thickness="0.208333333333"></CircPipe>
+					<PipeFlow flowIn="0." areaCatchment="2.26" hglDown="0." hglUp="0." runoffCoeff="0.4" timeInlet="5.867266"></PipeFlow>
+				</Pipe>
+				<Pipe name="3-3 TO 3-2 (WEST)" refEnd="3-2 (WEST)" refStart="3-4 (WEST)" desc="18&quot; HDPE" length="272.979103392679" slope="0.01">
+					<CircPipe diameter="18." material="HDPE" thickness="0.0625"></CircPipe>
+					<PipeFlow flowIn="1.64" areaCatchment="27.9" hglDown="0." hglUp="0." runoffCoeff="0.6" timeInlet="24."></PipeFlow>
+				</Pipe>
+				<Pipe name="3-1 TO 2-1 (WEST)" refEnd="3-1 (WEST)" refStart="2-1 (WEST)" desc="18&quot; RCP" length="65.461167795806" slope="0.01">
+					<CircPipe diameter="18." material="RCP" thickness="0.208333333333"></CircPipe>
+					<PipeFlow flowIn="0." areaCatchment="1.31" hglDown="0." hglUp="0." runoffCoeff="0." timeInlet="7.31"></PipeFlow>
+				</Pipe>
+				<Pipe name="2-1 TO 2-2 (WEST)" refEnd="2-1 (WEST)" refStart="2-2 (WEST)" desc="18&quot; RCP" length="155.02858909202" slope="0.01">
+					<CircPipe diameter="18." material="RCP" thickness="0.208333333333"></CircPipe>
+					<PipeFlow flowIn="0." areaCatchment="0.83" hglDown="0." hglUp="0." runoffCoeff="0.8" timeInlet="5."></PipeFlow>
+				</Pipe>
+				<Pipe name="3-4 TO 3-3 (WEST)" refEnd="3-4 INLET (WEST)" refStart="3-4 (WEST)" desc="18&quot; HDPE" length="7.536219190258" slope="-0.005">
+					<CircPipe diameter="18." material="HDPE" thickness="0.0625"></CircPipe>
+					<PipeFlow flowIn="0." areaCatchment="0." hglDown="0." hglUp="0." runoffCoeff="0." timeInlet="0."></PipeFlow>
+				</Pipe>
+			</Pipes>
+		</PipeNetwork>
+	</PipeNetworks>
+</LandXML>

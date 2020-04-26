@@ -1,0 +1,69 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\SK1459\\Documents\\scripts\\Estimate\\Estimate.fsproj": {}
+  },
+  "projects": {
+    "C:\\Users\\SK1459\\Documents\\scripts\\Estimate\\Estimate.fsproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\SK1459\\Documents\\scripts\\Estimate\\Estimate.fsproj",
+        "projectName": "Estimate",
+        "projectPath": "C:\\Users\\SK1459\\Documents\\scripts\\Estimate\\Estimate.fsproj",
+        "packagesPath": "C:\\Users\\SK1459\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\SK1459\\Documents\\scripts\\Estimate\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\SK1459\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {}
+          }
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "FParsec": {
+              "target": "Package",
+              "version": "(, )"
+            },
+            "FSharp.Core": {
+              "target": "Package",
+              "version": "[4.7.0, )"
+            },
+            "FSharp.Data": {
+              "target": "Package",
+              "version": "[3.3.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
